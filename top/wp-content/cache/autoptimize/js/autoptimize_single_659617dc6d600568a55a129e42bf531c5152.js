@@ -1,0 +1,2 @@
+var loading=document.getElementById('js-loading')
+loading.classList.remove('is-hide');window.addEventListener('load',stopload);setTimeout('stopload()',10000);function stopload(){loading.classList.add('fadeout-loading');}
